@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxian Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="ui">
+            <div id="score">Puntuación: 0</div>
+            <div id="lives">Vidas: 3</div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div id="game-over" class="hidden">
+            <h1>¡JUEGO TERMINADO!</h1>
+            <p>Tu puntuación final: <span id="final-score">0</span></p>
+            <button id="restart-btn">Reiniciar</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
