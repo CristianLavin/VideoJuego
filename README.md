@@ -14,7 +14,6 @@ Este proyecto es un videojuego arcade en el que controlas una nave espacial, dis
 ## Cómo ejecutar
 1. Descarga o clona el repositorio.
 2. Abre `index.html` en tu navegador.
-3. coloca tu navegador en pantalla completa
 
 ## Controles
 - `←` mover a la izquierda
